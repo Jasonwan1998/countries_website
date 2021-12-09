@@ -1,0 +1,218 @@
+@media screen and (min-width: 600px){
+
+	body{
+		background-color:rgb(226, 220, 220);
+		font: Helvetica;
+	}
+
+	#header{
+		
+		background-color:white;
+		height: 200px;
+	}
+
+	h1{
+		padding-top: 60px;
+		font-size: 50px;
+		font-family: Helvetica;
+	}
+
+	#content{
+		margin: 50px;
+	}
+
+	.navbar{
+		overflow:hidden;
+		/*background-color: yellow;*/
+		margin-bottom: 50px;
+	}
+
+	#search_div{
+		float:left;
+		width: 300px;
+        position: relative;
+		
+	}
+
+	#clear{
+			position: absolute;
+            top: 0;
+            border-radius: 5px;
+            right: 0px;
+            z-index: 2;
+            border: none;
+            top: 2px;
+            height: 30px;
+            cursor: pointer;
+            color: #1e90ff;
+            background-color: white;
+            transform: translateX(2px);
+			height: 30px;
+			display: none;
+	}
+
+		
+	input{
+		
+		margin: 0px;
+        padding: 0px;
+        width: 100%;
+        /*outline: none;*/
+        height: 30px;
+        /*border-radius: 5px;*/
+	}
+	
+
+	.dropdown{
+		display: inline;
+		float: right;
+		/*width: 130px;*/
+		overflow:hidden;
+		margin-right: 100px;
+	}
+	
+	.dropbtn{
+		color: black;
+		background-color: white;
+		font-size: 16px;
+		height: 30px;
+		outline: none;
+		border: none;
+	}
+
+
+	  /*
+	  .dropbtn{
+		font-size: 16px;  
+		border: none;
+		outline: none;
+		color: black;
+		padding-right:  16px;
+		font-family: inherit;
+		margin: 0;
+		background-color: white;
+		height: 30px;
+		margin-right: 50px;
+	  } */
+
+
+
+	    .dropbtn:hover {
+		background-color: red;
+	  }
+
+	  .dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	  }
+	  
+	  .dropdown-content a {
+		float: none;
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	  }
+	  
+	  .dropdown-content a:hover {
+		background-color: #ddd;
+	  }
+	  
+	  .dropdown:hover .dropdown-content {
+		display: block;
+	  }
+
+	  #status_bar{
+		  margin-bottom: 20px;
+		  /*background-color: yellow;*/
+	  }
+
+	  .status_title{
+		  padding-right: 20px;
+	  }
+
+	  .status_info{
+		  padding-right: 50px;
+		  font-weight: bold;
+	  }
+
+	  #countries{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		/*background-color: yellow;*/
+	  }
+
+	  .country{
+		margin-right: 100px;
+		margin-bottom: 100px;
+		width: 300px;
+		height: 400px;
+		padding: 10px;
+		/*background-color: green; */
+	  }
+ 
+	  .flag{
+		  width: 300px;
+		  height: 200px;
+		  /*background-color: red; */
+	  }
+
+	  #country_name{
+		  font-weight: bold;
+		  font-size: 18px;
+	  }
+
+	  .info{
+		  width:300px;
+		  height:200px;
+		  background-color: white;
+		  border-style:solid;
+		  border-width: thin;
+		  border-color: black;
+		  padding: 10px;
+		  
+	  }
+	  .country_info{
+		  margin:2px;
+	  }
+
+	  button{
+		  background-color: rgba(255, 46, 46, 0.2);
+		  border-width: 0;
+	  }
+
+	  #big_map_layer{
+		/*  
+		height: 500px;
+		  width: 1000px;
+		*/
+		position: fixed;
+		top:50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	  }
+
+	  #map_layer{
+		/*
+		height: 500px;
+		width: 1000px;
+		*/
+	  }
+
+	  #close_btn{
+		  background-color: white;
+		  
+		  float: right;
+		  top: 10px;
+		  
+	  }
+	  
+	  
+	
+}
